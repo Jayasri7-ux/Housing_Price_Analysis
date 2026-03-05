@@ -1,80 +1,82 @@
-\# Housing Price Analysis
+# Housing Price Analysis 🏡
 
+## Project Overview
+This project performs **data analysis and price prediction** on a housing dataset using Python.  
+The goal is to understand how different features affect house prices and build a **Linear Regression model** to predict housing prices.
 
+---
 
-\## Project Overview
+## Technologies Used
+- Python
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
+- Scikit-Learn
 
-This project analyzes a housing dataset and predicts house prices using Linear Regression.
+---
 
+## Dataset
+The dataset contains housing information such as:
 
+- Crime rate (CRIM)
+- Residential land zone (ZN)
+- Number of rooms (RM)
+- Property tax rate (TAX)
+- Pupil-teacher ratio (PTRATIO)
+- Lower status population (LSTAT)
+- Median house value (MEDV)
 
-\## Technologies Used
+These features help predict the **housing price**.
 
-Python  
+---
 
-Pandas  
+# Data Visualizations
 
-NumPy  
+### Histogram Graph
+![Histogram](graphs/histogram.png)
 
-Matplotlib  
+### Correlation Heatmap
+![Heatmap](graphs/heatmap.png)
 
-Seaborn  
+### Feature Correlation with Price
+![Correlation](graphs/correlation.png)
 
-Scikit-learn  
+### Actual vs Predicted Prices
+![Prediction](graphs/prediction.png)
 
+---
 
+# Machine Learning Model
 
-\## Graphs
+We used **Linear Regression** to train the model.
 
+### Model Evaluation
 
+R² Score: **0.66**  
+Mean Squared Error: **24**
 
-\### Histogram
+The model explains around **66% of the variance in housing prices**.
 
-!\[Histogram](graphs/histogram.png)
+---
 
+# Project Structure
+Housing_Price_Analysis
+│
+├── analysis.ipynb
+├── README.md
+├── 4) house Prediction Data Set.csv
+│
+└── graphs
+├── heatmap.png
+├── histogram.png
+├── correlation.png
+└── prediction.png
 
+---
 
-\### Heatmap
+# Author
 
-!\[Heatmap](graphs/heatmap.png)
+**Jaya Sri Palli**
 
-
-
-\### Correlation Plot
-
-!\[Correlation](graphs/correlation.png)
-
-
-
-\### Prediction Graph
-
-!\[Prediction](graphs/prediction.png)
-
-
-
-\## Project Structure
-
-
-
-Housing\_Price\_Analysis
-
-|
-
-|-- analysis.ipynb
-
-|-- README.md
-
-|-- house dataset csv
-
-|
-
-|-- graphs
-
-&nbsp;   |-- heatmap.png
-
-&nbsp;   |-- histogram.png
-
-&nbsp;   |-- correlation.png
-
-&nbsp;   |-- prediction.png
-
+Data Analytics Internship Project
