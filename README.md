@@ -1,62 +1,80 @@
-\# Housing Price Prediction - Data Analytics Project
+\# Housing Price Analysis
 
 
 
 \## Project Overview
 
-This project analyzes housing data and builds a machine learning model to predict house prices based on various features such as number of rooms, crime rate, tax rate, and socioeconomic factors.
+This project analyzes a housing dataset and predicts house prices using Linear Regression.
 
 
 
 \## Technologies Used
 
-Python
+Python  
 
-Pandas
+Pandas  
 
-NumPy
+NumPy  
 
-Matplotlib
+Matplotlib  
 
-Seaborn
+Seaborn  
 
-Scikit-Learn
-
-
-
-\## Project Steps
-
-1\. Data Loading and Cleaning
-
-2\. Exploratory Data Analysis (EDA)
-
-3\. Data Visualization
-
-4\. Linear Regression Model Training
-
-5\. House Price Prediction
+Scikit-learn  
 
 
 
-\## Model Performance
-
-R² Score: 0.66
-
-Mean Squared Error: 24.29
+\## Graphs
 
 
 
-\## Key Insights
+\### Histogram
 
-\- Houses with more rooms tend to have higher prices.
-
-\- Areas with higher poverty levels tend to have lower housing prices.
-
-\- Multiple socioeconomic factors influence housing prices.
+!\[Histogram](graphs/histogram.png)
 
 
 
-\## Conclusion
+\### Heatmap
 
-The model successfully predicts housing prices using regression analysis and demonstrates the relationship between housing features and property values.
+!\[Heatmap](graphs/heatmap.png)
+
+
+
+\### Correlation Plot
+
+!\[Correlation](graphs/correlation.png)
+
+
+
+\### Prediction Graph
+
+!\[Prediction](graphs/prediction.png)
+
+
+
+\## Project Structure
+
+
+
+Housing\_Price\_Analysis
+
+|
+
+|-- analysis.ipynb
+
+|-- README.md
+
+|-- house dataset csv
+
+|
+
+|-- graphs
+
+&nbsp;   |-- heatmap.png
+
+&nbsp;   |-- histogram.png
+
+&nbsp;   |-- correlation.png
+
+&nbsp;   |-- prediction.png
 
